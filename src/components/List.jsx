@@ -47,7 +47,7 @@ export default function List() {
             className="flex items-center justify-between py-2 border-b"
           >
             <span
-              className={`cursor-pointer ${
+              className={`flex-1 wrap-break-word ${
                 t.completed ? "line-through text-gray-500" : ""
               }`}
             >
